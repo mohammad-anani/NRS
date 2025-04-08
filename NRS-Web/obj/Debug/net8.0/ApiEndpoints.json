@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "NRS_Web.Controllers.NRSController",
+    "Method": "AddPerson",
+    "RelativePath": "api/NRS/AddPerson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "person",
+        "Type": "NRS_Web.Controllers.Person",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NRS_Web.Controllers.NRSController",
+    "Method": "GetPerson",
+    "RelativePath": "api/NRS/GetPerson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "NRS_Web.Controllers.NRSController\u002BclsID",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NRS_Web.Controllers.NRSController",
+    "Method": "UpdatePerson",
+    "RelativePath": "api/NRS/UpdatePerson",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "person",
+        "Type": "NRS_Web.Controllers.Person",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

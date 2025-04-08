@@ -1,0 +1,14 @@
+body {
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+p,
+span {
+  direction: rtl;
+}

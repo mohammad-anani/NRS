@@ -1,0 +1,112 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding-bottom: 200px;
+}
+
+main p {
+  font-size: 45px;
+  width: 90vw;
+  max-width: 1000px;
+  text-align: center;
+  word-spacing: 10px;
+  line-height: 65px;
+}
+
+main > p:nth-child(2) {
+  font-style: italic;
+  background-color: wheat;
+  border: 2px double black;
+  padding: 30px 30px 80px 30px;
+  border-radius: 20px;
+  position: relative;
+}
+
+p span {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  font-size: 30px;
+}
+
+img {
+  width: 45%;
+  max-width: 1000px;
+  min-width: 500px;
+}
+
+article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 100px;
+}
+
+article figcaption {
+  font-size: 6vw;
+}
+
+section {
+  width: 90%;
+  position: relative;
+  height: 300px;
+  max-width: 1000px;
+}
+
+section span {
+  font-size: 50px;
+  position: absolute;
+}
+
+section span:nth-of-type(1) {
+  rotate: -0.05turn;
+  top: 0px;
+  left: 0px;
+}
+
+section span:nth-of-type(2) {
+  rotate: 0.03turn;
+  top: 80px;
+  left: 80px;
+}
+
+section span:nth-of-type(3) {
+  rotate: 0.9turn;
+  top: 50px;
+  left: 10px;
+}
+
+section span:nth-of-type(4) {
+  bottom: 80px;
+  right: 10px;
+  font-size: 30px;
+}
+
+section img {
+  scale: 0.7;
+  rotate: 0.1turn;
+  position: absolute;
+  top: -60px;
+  left: 140px;
+}
+
+button {
+  width: 60%;
+  max-width: 600px;
+  height: 180px;
+  font-size: 50px;
+  padding-top: 10px;
+  border-radius: 30px;
+  background: url("../../public/flag.jpg");
+  background-size: contain;
+  color: darkgreen;
+  cursor: pointer;
+  transition: scale 0.15s;
+}
+
+button:hover {
+  scale: 1.2;
+}

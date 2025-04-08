@@ -1,0 +1,107 @@
+main {
+  direction: rtl;
+  font-size: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 30px;
+  gap: 150px;
+}
+
+#root > span:first-of-type {
+  font-size: 40px;
+  color: white;
+  width: fit-content;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px 50px;
+  background-color: black;
+  border-radius: 20px;
+  transition: scale 0.15s, background-color 0.15s;
+}
+
+#root > span:first-of-type:hover {
+  scale: 1.2;
+  background-color: gray;
+}
+
+main input {
+  font-size: 55px;
+  width: 270px;
+  text-align: center;
+}
+
+main > div {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  max-width: 1000px;
+}
+
+main > div:first-of-type {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 0px;
+}
+
+hr {
+  margin: 0px;
+  border: 2px solid black;
+}
+
+.pp {
+  margin: 0px;
+  align-self: flex-end;
+}
+
+main div div {
+  display: flex;
+  gap: 20px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section label {
+  font-size: 40px;
+  word-wrap: break-word;
+}
+
+textarea {
+  width: 100%;
+  height: 90%;
+  direction: rtl;
+  font-size: 25px;
+  align-self: flex-start;
+}
+
+section:nth-of-type(2) textarea {
+  align-self: flex-end;
+}
+
+main p:last-of-type {
+  align-self: center;
+}
+
+main > label:last-of-type {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 1000px;
+}
+
+input[type="checkbox"] {
+  height: 40px;
+  width: 40px;
+  accent-color: black;
+}
