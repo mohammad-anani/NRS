@@ -1,6 +1,6 @@
 <h1>NRS</h1>
 <br>
-restore NRS.bak database
+Run Update-Package -reinstall on your nuget package manager console to install needed libraries like GUNA UI and Magik<br>
 <br>
 check for connectionstring in NRS-web and NRS(it may differ from account to account)
 <br>
