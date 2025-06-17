@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AnaniFamily\\source\\repos\\NRS\\NRS.csproj": {}
+    "C:\\Users\\AnaniFamily\\Source\\Repos\\NRS2\\NRS\\NRS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AnaniFamily\\source\\repos\\NRS\\NRS.csproj": {
+    "C:\\Users\\AnaniFamily\\Source\\Repos\\NRS2\\NRS\\NRS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AnaniFamily\\source\\repos\\NRS\\NRS.csproj",
+        "projectUniqueName": "C:\\Users\\AnaniFamily\\Source\\Repos\\NRS2\\NRS\\NRS.csproj",
         "projectName": "NRS",
-        "projectPath": "C:\\Users\\AnaniFamily\\source\\repos\\NRS\\NRS.csproj",
+        "projectPath": "C:\\Users\\AnaniFamily\\Source\\Repos\\NRS2\\NRS\\NRS.csproj",
         "packagesPath": "C:\\Users\\AnaniFamily\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AnaniFamily\\source\\repos\\NRS\\obj\\",
+        "outputPath": "C:\\Users\\AnaniFamily\\Source\\Repos\\NRS2\\NRS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

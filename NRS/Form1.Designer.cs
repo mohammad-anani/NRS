@@ -70,10 +70,10 @@
             label12 = new Label();
             dataGridView1 = new DataGridView();
             tabPage5 = new TabPage();
+            button8 = new Button();
             button7 = new Button();
             label14 = new Label();
             label13 = new Label();
-            button8 = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -584,6 +584,20 @@
             tabPage5.TabIndex = 4;
             tabPage5.Text = "tabPage5";
             // 
+            // button8
+            // 
+            button8.BackColor = Color.Silver;
+            button8.FlatStyle = FlatStyle.Flat;
+            button8.Font = new Font("Segoe UI", 20F);
+            button8.Location = new Point(159, 499);
+            button8.Name = "button8";
+            button8.RightToLeft = RightToLeft.Yes;
+            button8.Size = new Size(270, 118);
+            button8.TabIndex = 13;
+            button8.Text = "العودة";
+            button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
+            // 
             // button7
             // 
             button7.BackColor = Color.Silver;
@@ -623,20 +637,6 @@
             label13.Text = "نظام التوظيف المحايد";
             label13.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // button8
-            // 
-            button8.BackColor = Color.Silver;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Segoe UI", 20F);
-            button8.Location = new Point(159, 499);
-            button8.Name = "button8";
-            button8.RightToLeft = RightToLeft.Yes;
-            button8.Size = new Size(270, 118);
-            button8.TabIndex = 13;
-            button8.Text = "العودة";
-            button8.UseVisualStyleBackColor = false;
-            button8.Click += button8_Click;
-            // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -650,6 +650,7 @@
             Name = "Main";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "نظام التوظيف المحايد";
+            Load += Main_Load;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();

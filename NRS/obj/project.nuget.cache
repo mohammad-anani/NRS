@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0U89Whwzj5Y=",
+  "dgSpecHash": "PnorKVh8OCI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\AnaniFamily\\source\\repos\\NRS\\NRS.csproj",
+  "projectFilePath": "C:\\Users\\AnaniFamily\\Source\\Repos\\NRS2\\NRS\\NRS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AnaniFamily\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\AnaniFamily\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
